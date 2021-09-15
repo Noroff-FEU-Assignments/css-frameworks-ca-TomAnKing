@@ -1,11 +1,12 @@
 $tablet-width: 976px;
+$content-margin: 5%;
+$content-width: 90%;
 
 $colours: (
   primary-colour: #e92569,
   secondary-colour: #767676,
   header-colour: #efefef,
   title-colour: #0a0a0a,
-  background-colour: #ffffff - #e5e5e5,
 );
 
 @function getColour($colour) {

@@ -1,0 +1,98 @@
+.carousel-indicators [data-bs-target] {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  background-color: getColour(primary-colour) !important;
+}
+
+h1 {
+  margin-left: 10%;
+  color: getColour(primary-colour);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+
+p {
+  width: $content-width;
+  margin-left: $content-margin;
+  font-size: 16px;
+}
+
+.accordion {
+  width: $content-width;
+  margin-left: $content-margin;
+}
+
+.accordion-item {
+  background-color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+  margin-top: 1px;
+}
+
+.accordion-button:after {
+  display: none;
+}
+
+.accordion-button .active {
+  border: none;
+}
+
+.accordion-button {
+  color: getColour(primary-colour) !important;
+  background-color: white !important;
+}
+
+.accordion-body {
+  border-top: 2px solid getColour(primary-colour) !important;
+  color: getColour(secondary-colour) !important;
+  background-color: white !important;
+}
+
+.accordion img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.accordion p {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.tab-content {
+  width: $content-width;
+  margin-left: $content-margin;
+}
+
+.nav-tabs {
+  width: $content-width;
+  margin-left: $content-margin;
+  border-bottom: none;
+  margin-top: 5%;
+}
+
+.tab-buttons {
+  display: inline;
+  color: getColour(primary-colour) !important;
+  width: 100px;
+  background-color: white;
+}
+
+.tab-buttons.active {
+  color: getColour(secondary-colour) !important;
+  border-radius: 7px 7px 0px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+  background-color: white;
+}
+
+.tab-content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+  border-radius: 0px 10px 10px 10px;
+  border: none;
+  background-color: white;
+}

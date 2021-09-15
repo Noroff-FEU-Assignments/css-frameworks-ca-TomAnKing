@@ -4,6 +4,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background-image: radial-gradient(#ffffff, #e5e5e5);
 }
 
 .wrapper {
@@ -18,11 +19,32 @@ footer {
   background-color: getColour(header-colour);
   flex-shrink: 0;
   padding: 15px;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-left: $content-margin;
+  padding-right: $content-margin;
   background-color: white;
 
   @media (max-width: $tablet-width) {
+    display: block;
+  }
+}
+
+#vimeo {
+  margin-right: 5px;
+}
+
+#youtube {
+  margin-left: 5px;
+}
+
+#mail {
+  @media (max-width: $tablet-width) {
+    float: left;
+  }
+}
+
+#copyright {
+  @media (max-width: $tablet-width) {
+    float: right;
   }
 }
 
@@ -30,5 +52,7 @@ footer {
   font-size: 30px;
 
   @media (max-width: $tablet-width) {
+    width: 100%;
+    text-align: center;
   }
 }
