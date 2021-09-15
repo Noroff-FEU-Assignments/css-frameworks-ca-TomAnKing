@@ -39,16 +39,6 @@ footer {
   font-size: 30px;
 }
 
-@media (max-width: 976px) {
-  .footer-icons {
-    width: 100%;
-    text-align: center;
-    position: relative;
-    margin: 0;
-    padding: 0;
-  }
-}
-
 .bg-light {
   background-color: #efefef !important;
   padding: 2%;
