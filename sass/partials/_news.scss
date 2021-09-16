@@ -1,0 +1,57 @@
+.pagination {
+  margin-left: $content-margin;
+  border-radius: 5px;
+}
+
+.page-link {
+  border: 2px solid getColour(primary-colour) !important;
+  color: getColour(primary-colour) !important;
+}
+
+.first-page {
+  color: white !important;
+  background-color: getColour(primary-colour) !important;
+}
+
+.container {
+  min-width: 90%;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 6%;
+  background-color: white;
+  font-family: $secondary-font;
+}
+
+.card img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-title {
+  width: 80%;
+  margin-left: 5%;
+  color: getColour(title-colour) !important;
+  font-size: 20px;
+}
+
+.card-text {
+  color: getColour(secondary-colour) !important;
+  font-size: 18px;
+  margin-top: 10%;
+}
+
+.card-btn {
+  background: linear-gradient(
+    90deg,
+    getColour(primary-colour) 90%,
+    getColour(secondary-colour) 10%
+  );
+  width: 90%;
+  margin-left: 5%;
+  border: none;
+  font-size: 16px;
+  padding: 5%;
+  margin-top: 10%;
+}

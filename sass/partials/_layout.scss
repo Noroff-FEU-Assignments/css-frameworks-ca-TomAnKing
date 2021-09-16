@@ -22,6 +22,7 @@ footer {
   padding-left: $content-margin;
   padding-right: $content-margin;
   background-color: white;
+  font-family: $secondary-font;
 
   @media (max-width: $tablet-width) {
     display: block;
