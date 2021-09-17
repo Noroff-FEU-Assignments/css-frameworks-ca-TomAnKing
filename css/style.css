@@ -10,6 +10,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: radial-gradient(#ffffff, #e5e5e5);
+  padding-top: 40px;
 }
 
 .wrapper {
@@ -105,11 +106,13 @@ footer {
 a.nav-link {
   color: #0a0a0a !important;
   font-size: 16px;
+  margin-left: 15px;
 }
 
 @media (max-width: 976px) {
   a.nav-link {
     margin-top: 5%;
+    margin-left: 0px;
     padding-left: 5% !important;
   }
 }
@@ -125,15 +128,17 @@ a.nav-link.active {
   color: #767676 !important;
 }
 
-.form-control {
+nav .form-control {
   color: white;
   border: none;
   border-radius: 0px;
+  height: 50px;
 }
 
 @media (max-width: 976px) {
-  .form-control {
+  nav .form-control {
     margin-left: 5%;
+    margin-top: 8%;
   }
 }
 
@@ -143,6 +148,12 @@ a.nav-link.active {
   border: 0;
   font-size: 16px;
   border-radius: 0px 7px 7px 0px;
+}
+
+@media (max-width: 976px) {
+  .btn-outline-success {
+    margin-top: 8%;
+  }
 }
 
 .navbar-toggler {
@@ -164,6 +175,8 @@ a.nav-link.active {
   background-color: white;
   opacity: 1;
   border-radius: 10px;
+  margin-left: 0.8%;
+  margin-right: 0.8%;
 }
 
 .carousel-indicators .active {
@@ -367,5 +380,137 @@ p {
   font-size: 16px;
   padding: 5%;
   margin-top: 10%;
+}
+
+.submit-form {
+  min-width: 50%;
+  float: left;
+  background-color: #efefef;
+  border-radius: 7px;
+  padding: 3%;
+  margin-left: 5%;
+  font-family: "Lato";
+  font-size: 20px;
+  color: #767676;
+}
+
+@media (max-width: 976px) {
+  .submit-form {
+    width: 100%;
+    margin-left: 0;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+}
+
+.submit-form .form-control {
+  margin-left: 0;
+  border-radius: 7px;
+  border: none;
+}
+
+.submit-form .btn {
+  width: 100%;
+  background-color: #767676;
+  margin-top: 20px;
+  border: none;
+  opacity: 1;
+  font-size: 22px;
+}
+
+.submit-form .form-check input {
+  background-color: #e92569;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.submit-form .form-check-label {
+  height: auto;
+  position: absolute;
+  margin-top: 12.5px;
+  margin-left: 10px;
+  width: 40%;
+  font-size: 15px;
+}
+
+@media (max-width: 976px) {
+  .submit-form .form-check-label {
+    width: 70%;
+  }
+}
+
+#exampleFormControlInput1 {
+  height: 60px;
+}
+
+#basic-addon3 {
+  border: none;
+  color: white;
+  background-color: #c7c7c7;
+}
+
+@media (max-width: 976px) {
+  #basic-addon3 {
+    display: none;
+  }
+}
+
+#basic-url {
+  height: 60px;
+}
+
+.contact-details {
+  margin-left: 60%;
+  margin-top: 5%;
+}
+
+@media (max-width: 976px) {
+  .contact-details {
+    margin-left: 5%;
+    width: auto;
+  }
+}
+
+.contact-info {
+  font-size: 40px;
+  color: #767676;
+  display: inline;
+}
+
+.contact-info p {
+  font-size: 16px;
+  font-family: "Lato";
+  margin-top: -40px;
+  margin-bottom: 45px;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 976px) {
+  .contact-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .contact-info {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .contaact-header {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: -8%;
+  }
+  .submit-form {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
 }
 /*# sourceMappingURL=style.css.map */

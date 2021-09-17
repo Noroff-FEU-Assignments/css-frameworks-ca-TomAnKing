@@ -1,0 +1,110 @@
+.submit-form {
+  min-width: 50%;
+  float: left;
+  background-color: getColour(header-colour);
+  border-radius: 7px;
+  padding: 3%;
+  margin-left: $content-margin;
+  font-family: $secondary-font;
+  font-size: 20px;
+  color: getColour(secondary-colour);
+  @media (max-width: $tablet-width) {
+    width: 100%;
+    margin-left: 0;
+    padding: 5%;
+    margin-bottom: 10%;
+  }
+
+  .form-control {
+    margin-left: 0;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .btn {
+    width: 100%;
+    background-color: getColour(secondary-colour);
+    margin-top: 20px;
+    border: none;
+    opacity: 1;
+    font-size: 22px;
+  }
+
+  .form-check input {
+    background-color: getColour(primary-colour);
+    border: none;
+    width: 40px;
+    height: 40px;
+  }
+
+  .form-check-label {
+    height: auto;
+    position: absolute;
+    margin-top: 12.5px;
+    margin-left: 10px;
+    width: 40%;
+    font-size: 15px;
+    @media (max-width: $tablet-width) {
+      width: 70%;
+    }
+  }
+}
+
+#exampleFormControlInput1 {
+  height: 60px;
+}
+
+#basic-addon3 {
+  border: none;
+  color: white;
+  background-color: getColour(url-colour);
+  @media (max-width: $tablet-width) {
+    display: none;
+  }
+}
+
+#basic-url {
+  height: 60px;
+}
+
+.contact-details {
+  margin-left: 60%;
+  margin-top: 5%;
+  @media (max-width: $tablet-width) {
+    margin-left: 5%;
+    width: auto;
+  }
+}
+
+.contact-info {
+  font-size: 40px;
+  color: getColour(secondary-colour);
+  display: inline;
+}
+
+.contact-info p {
+  font-size: 16px;
+  font-family: $secondary-font;
+  margin-top: -40px;
+  margin-bottom: 45px;
+  margin-left: 10%;
+  @media (max-width: $tablet-width) {
+  }
+}
+
+@media screen and (max-width: $tablet-width) {
+  .contact-content {
+    display: flex;
+    flex-flow: column;
+  }
+  .contact-info {
+    order: 1;
+  }
+  .contaact-header {
+    order: 2;
+    margin-top: -8%;
+  }
+  .submit-form {
+    order: 3;
+  }
+}
