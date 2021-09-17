@@ -264,7 +264,11 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
+}
+
+.share-sm .fab {
+  font-size: 30px;
 }
 
 .tab-content {
@@ -300,6 +304,9 @@ p {
   border: none;
   background-color: white;
   margin-bottom: 520px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
 }
 
 .tab-content img {
@@ -308,6 +315,7 @@ p {
   margin-top: 2%;
   margin-left: 2%;
   float: left;
+  padding-bottom: 2%;
 }
 
 .tab-content p {
@@ -322,9 +330,16 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   margin-left: 36%;
-  margin-top: 3%;
+  bottom: 8%;
+  position: absolute;
+  font-size: 16px;
+}
+
+.share-md .fab {
+  font-size: 30px;
+  margin-top: -5px;
 }
 
 .pagination {
